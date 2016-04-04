@@ -1,0 +1,21 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  height: 50px;
+  padding: 20px;
+}
+
+.sidebar{
+  width: 300px;
+  display: inline-block;
+}
+
+.content {
+  background-color: lightgrey;
+  width: 600px;
+  height: 500px;
+  display: inline-block;
+  vertical-align: top;
+}

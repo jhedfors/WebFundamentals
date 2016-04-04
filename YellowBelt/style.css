@@ -1,0 +1,189 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: arial;
+}
+
+#wrapper{
+  width: 875px;
+  background-color:#062134;
+  padding: 10px;
+  position: relative;
+}
+#header{
+  height: 50px;
+  color: white;
+  position: relative;
+}
+
+#header h1{
+  display: inline-block;
+  font-size: 28px;
+  padding: 5px 0px 0px 15px;
+}
+
+#header li, #footer li{
+  display: inline;
+  list-style: none;
+  padding: 0px 0px 0px 30px;
+}
+
+#header ul{
+  display: inline;
+  padding: 15px 20px;
+  position: absolute;
+  right: 0px;
+}
+
+#footer ul{
+  display: inline;
+  padding: 15px 20px;
+  position: absolute;
+  left: 200px;
+}
+#header span, #footer span{
+  color: #A0CCEF;
+}
+
+#header a, #footer a{
+  text-decoration: none;
+  color: inherit; ;
+}
+
+#main{
+  padding: 15px;
+  background-color: white;
+}
+
+#hero{
+  background-image: url("images/main_img.png");
+  height: 350px;
+  width: 846px;
+  padding: 0px;
+}
+
+.moreinfo{
+  display: inline-block;
+  height: 200px;
+  width: 219px;
+  background-color: #1468A8;
+  margin: 15px 15px 15px 0px;
+  padding: 25px;
+  vertical-align: top;
+  color: white;
+  position: relative;
+}
+
+  .moreinfo img{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 15px;
+    display: inline;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+  }
+
+  .moreinfo h2{
+    display: inline;
+    padding-left: 30px;
+  }
+
+  .moreinfo p{
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  a.moreinfo_button{
+    text-decoration: none;
+    height: 25px;
+    width: 100px;
+    padding: 5px 5px 0px 5px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: -webkit-linear-gradient(#46ACEB, #1991DD);
+  }
+
+#middle{
+  width: 880px;
+}
+
+#bottom{
+  height: 191px;
+  color: #142D3F;
+  margin-top: 10px;
+}
+  #bottom h2{
+    font-size: 20px;
+    padding: 0px 0px 10px 0px;
+  }
+
+#goal{
+  display: inline-block;
+  width: 570px;
+}
+
+  #goal img{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #goal p{
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+
+  #goal a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #6B95B3;
+  }
+
+#goal_right{
+  display: inline-block;
+  width: 271px;
+  margin: 0px 0px 0px 15px;
+  padding: 0px 0px 15px 0px;
+
+}
+
+#testimonial{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#testimonial_box{
+  display: inline-block;
+  height: 90px;
+  width: 240px;
+  background-color: #DAEDFF;
+  margin: 0px  0px 15px 0px;
+  padding: 15px 15px 15px 15px;
+  vertical-align: top;
+  color: #142D3F;
+  position: relative;
+}
+
+#downtriangle {
+  width: 0px;
+  height: 0px;
+  border-top: 50px #DAEDFF solid;
+  border-left: 50px transparent solid;
+  border-right: 50px transparent solid;
+  position: absolute;
+  bottom: 130px;
+  right: 200px;
+}
+
+#footer{
+  height: 50px;
+  background-color: #DAEDFF;
+  padding: 15px;
+  margin-top: 2px;
+  color: #5F8FB2;
+}

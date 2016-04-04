@@ -1,0 +1,36 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+h2{
+  margin-left: 20px;
+}
+
+.main{
+  margin: 20px;
+}
+
+form{
+  width: 400px;
+}
+
+input {
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid black;
+
+}
+form.registration {
+  padding: 20px;
+}
+
+input.submit {
+  background-color: blue;
+  color: white;
+  display: block;
+}
+
+.error{
+  color: red;
+}

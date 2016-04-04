@@ -1,0 +1,277 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: arial,sans-serif;}
+
+h2{
+  padding: 5px 0px;
+  color: #1170B0;
+}
+
+h3{
+  color: #1170B0;
+}
+
+h4{
+  color: #1170B0;
+  padding: 5px 0px;
+}
+
+p{
+  padding: 5px 0px;
+}
+
+#wrapper{
+  width: 970px;
+  padding: 0px 20px;
+}
+#header{
+  position: relative;
+  width: 970px;
+}
+  #header a{
+    text-decoration: none;
+  }
+
+  #header span{
+    vertical-align: bottom;
+  }
+  #header img{
+    vertical-align: bottom;;
+  }
+  #header ul{
+    position: absolute;
+    top: 10px;
+    right: 95px;
+    display: inline-block;
+  }
+
+  #header li{
+    border: 1px solid grey;
+    margin: -3px;
+    padding: 3px;
+    color: grey;
+    display: inline-block;
+  }
+  #header h2{
+    padding: 10px;
+    color: white;
+    background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(0, 111, 167),rgb(0, 128, 193),rgb(0, 111, 167)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(0, 111, 167),rgb(0, 128, 193),rgb(0, 111, 167)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(0, 111, 167),rgb(0, 128, 193),rgb(0, 111, 167)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to (rgb(0, 111, 167),rgb(0, 128, 193),rgb(0, 111, 167))); /* Standard syntax */
+  }
+
+a.login_button{
+  text-decoration: none;
+  padding: 5px 0px 7px ;
+  /*margin: 0px 0px 0px 0px;*/
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  width: 50px;
+  background: #90B101; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#2FA1E1,#1477B8); /* For Safari 5.1 to 6.0 */
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+.mainnav a{
+  color: grey;
+}
+
+.mainnav ul{
+  position: absolute;
+  right: 100px;
+}
+
+#left{
+  font-size: 12px;
+}
+#left b{
+  color: red;
+}
+
+.logogrey{
+  color: grey;
+  font-size: 40px;
+
+}
+.logoblue{
+  color: blue;
+  font-size: 40px;
+}
+
+.ad_left{
+  color: #455460;
+  height: 221px;
+  width: 168px;
+  margin: 20px 20px 20px 0px;
+  padding: 10px;
+  background-image: url('./images/left_content_ad.png');
+ }
+
+ a.ad_left_button{
+   text-decoration: none;
+   padding: 5px 0px 7px ;
+   margin: 20px 0px 0px 0px;
+   border-radius: 5px;
+   color: white;
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+   width: 160px;
+   background: #90B101; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(#2FA1E1,#1477B8); /* For Safari 5.1 to 6.0 */
+   display: block;
+ }
+
+ a.scheduledemo_button {
+   text-decoration: none;
+   padding: 5px 0px 7px ;
+   margin: 20px 0px 0px 0px;
+   border-radius: 5px;
+   color: white;
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+   width: 220px;
+   background: #90B101; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(#2FA1E1,#1477B8); /* For Safari 5.1 to 6.0 */
+   display: block;
+ }
+
+ a.freetrial_button {
+   text-decoration: none;
+   padding: 5px 0px 7px ;
+   margin: 5px 0px 0px 0px;
+   border-radius: 5px;
+   color: white;
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+   width: 220px;
+   background: #90B101; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(#F8A32D,#BF360C); /* For Safari 5.1 to 6.0 */
+   display: block;
+ }
+
+ p.centertext{
+   width: 220px;
+   text-align: center;
+ }
+#main{
+  width: 970px;
+  background: -webkit-linear-gradient(#E9E9E9,#FFFFFF,#FFFFFF,#FFFFFF,#FFFFFF,#FFFFFF,#FFFFFF); /* For Safari 5.1 to 6.0 */
+
+}
+#left{
+  width: 240px;
+  padding: 50px 20px 20px 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+#right{
+  width: 680px;
+  display: inline-block;
+}
+#breadcrumb_banner{
+  width: 685px;
+  position: relative;
+  height: 90px;
+  border-bottom: solid grey 1px;
+}
+#breadcrumb{
+  width: 200px;
+  display: inline-block;
+  padding: 15px 0px;
+}
+
+#breadcrumb a{
+  text-decoration: none;
+  color: #1170B0;
+  position: relative;
+  bottom: 5px;
+ }
+.inline-block{
+  display: inline;
+}
+
+#contact{
+  width: 200px;
+  display: inline-block;
+  padding: 15px;
+  position: absolute;
+  right: 0px;
+}
+
+#contact li{
+  list-style-type: none;
+}
+
+#contact ul{
+  display: inline-block;
+  font-size: 12px;
+
+}
+
+.phonenumber{
+  font-size: 27px;
+  color: #4EACDC;
+}
+
+#content{
+  padding: 10px 0px;
+  font-size: 12px;
+}
+#content li{
+  list-style-type: square;
+  margin-bottom: 5px;
+  color: black;
+}
+
+
+#content ul{
+  margin-left: 15px;
+  color: blue;
+}
+
+.ad_right{
+  border: 5px solid #8AB8D7;
+  margin: 5px 0px;
+  padding: 5px;
+}
+.ad_right img{
+  display: inline;
+  vertical-align: top;
+}
+
+.ad_right p{
+  font-size: 15px;
+}
+
+a.ad_right_button {
+  text-decoration: none;
+  padding: 5px 0px 7px ;
+  margin: 10px 0px 0px 0px;
+  border: solid 2px #638426;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  width: 150px;
+  background: #90B101; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#C4DD6C,#90B101,#C4DD6C); /* For Safari 5.1 to 6.0 */
+  display: block;
+}
+#ad_right_content{
+  display: inline-block;
+  width: 585px;
+  padding: 0px 6px;
+
+}

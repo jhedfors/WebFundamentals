@@ -1,0 +1,116 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: arial,sans-serif;
+}
+li{
+  font-weight:400;
+}
+
+h1, h2, h3{
+   color: rgb(145, 0, 0);
+   padding: 10px 0px;
+   font-weight: 800;
+}
+
+#header{
+  background-image: url(./images/logo_background.png);
+  width: 920px;
+  height: 100px;
+  display: block;
+}
+
+  #header_topleft{
+    display: inline-block;
+    height: 70px;
+
+  }
+
+  #header_topright{
+    display: inline-block;
+    vertical-align: top;
+    height: 60px;
+    text-align: right;
+    color: white;
+    padding: 5px;
+  }
+
+    #header_topright a{
+      color: rgb(255, 204, 102);
+    }
+
+  #header_search{
+    padding: 10px;
+    text-align: right;
+  }
+
+    #header_search input[type=submit]{
+      border: 1px solid white;
+      background-color: rgb(145, 0, 0);
+      color: white;
+      font-size: 12px;
+      padding: 2px;
+      margin-right: -10px;
+      margin-left: 5px;
+      width: 55px;
+    }
+  #mainNavigation li, #mainNavigation ul{
+    background-color: rgb(238, 238, 238);
+    border: solid 1px lightgrey;
+    display: block;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 5px 25px;
+    display: inline;
+
+  }
+
+    #mainNavigation{
+      width: 920px;
+      background-color: rgb(238, 238, 238);
+
+    }
+    #mainNavigation a{
+      color: rgb(102, 102, 116);
+      text-decoration: none;
+      font-size: 12px;
+      padding: 0px 5px;
+      font-weight:800;
+    }
+
+    #content{
+      background-color: white;
+      display: inline-block;
+      width: 600px;
+      padding: 0px 20px;
+      vertical-align: top;
+      vertical-align: top;
+    }
+
+      #content ol,#content ul{
+        padding-left: 40px;
+      }
+
+      #content a, #sidebar a{
+        color: rgb(145, 0, 0);
+      }
+
+#main{
+  display: block;
+  padding: 25px;
+
+}
+#sidebar{
+  background-color: rgb(238, 238, 238);;
+  display: inline-block;
+  width: 120px;
+  margin: 15px 15px 0px 0px;
+  padding: 20px 30px;
+  border: solid 1px lightgrey;
+}
+
+  #sidebar ul{
+   color: rgb(145, 0, 0);
+   list-style-type: disc;
+   /*list-style-image: url(./images/chevron_icon.png);*/
+  }

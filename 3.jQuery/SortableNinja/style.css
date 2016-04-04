@@ -1,0 +1,22 @@
+.images{
+  width: 1070px;
+  height: 646px;
+  padding: 0px;
+  margin: 20px;
+}
+
+/*.images button{
+  display: block;
+  margin-top: 25px;
+  padding: 10px;
+}*/
+
+.images li {
+  margin: 2px;
+  padding:0px:
+}
+
+ul, li{
+  display: inline-block;
+  list-style: none;
+}

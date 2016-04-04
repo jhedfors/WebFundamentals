@@ -1,0 +1,147 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: arial,sans-serif;
+  /*background-color: black;*/
+  color: white;
+}
+body{
+  width: 970px;
+}
+.header{
+  background-color: white;
+  height: 68px;
+}
+
+.header h1{
+  display: inline-block;
+  color: black;
+  margin: 20px 10px 10px 75px;
+  vertical-align: top;
+}
+
+#navbar{
+  width: 970px;
+  height: 50px;
+  margin: 10px;
+  background-color: #EEEEEE;
+  margin: 0px;
+}
+
+.navbar a{
+  /*background-color: white;*/
+  /*color: black;
+  background-color: lightgray;
+  padding: 5px;*/
+
+  font: bold 12px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: grey;
+  padding: 5px 14px 5px 14px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  /*border-bottom: 1px solid #333333;*/
+  border-left: 1px solid #CCCCCC;
+  margin: -4px;
+  position: relative;
+  top: 4px;
+  left: 4px;
+
+}
+
+.navbar li{
+  display: inline;
+}
+
+
+
+.content{
+  background-color: black;
+  color: white;
+  padding: 15px 10px;
+  display: block;
+  font-size: 12px;
+}
+.main img{
+  display: inline-block;
+  border:5px solid white;
+  margin: 0px 5px 5px 5px;
+}
+.business_divisions img{
+  width: 210px;
+}
+
+.business_divisions input[type=button]{
+  vertical-align: bottom;
+  background-color: gold;
+  color: black;
+  position: absolute;
+  bottom:10px;
+  right: 10px;
+  border-radius: 5px;
+  border: solid black 2px;
+  font-size: 12px;
+  padding: 5px;
+
+  }
+
+
+
+
+.aboutPPC{
+  display: inline-block;
+  width: 510px;
+  height: 265px;
+  padding: 0px;
+  margin: 0px 10px;
+  vertical-align: top;
+  background: grey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, rgb(108, 108, 108), rgb(55, 55, 55)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgb(108, 108, 108), rgb(55, 55, 55)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgb(108, 108, 108), rgb(55, 55, 55)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgb(108, 108, 108), rgb(55, 55, 55)); /* Standard syntax */
+
+}
+
+.aboutPPC p{
+  padding: 10px;
+}
+.aboutPPC h3{
+  padding: 10px;
+}
+.aboutNotes img{
+  margin: 0px 10px;
+  border: none;
+}
+.aboutNotes{
+  color: rgb(148, 153, 49);
+}
+
+.business_divisions{
+  width: 210px;
+  height: 260px;
+  display: inline-block;
+  background-color: white;
+  vertical-align: top;
+  margin: 10px;
+  position: relative;
+}
+
+  .business_divisions h2, .aboutPPC h2{
+    /*background-color: yellow;*/
+    color: black;
+    font-size: 14px;
+    background: yellow; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(yellow,gold,yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(yellow,gold,yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(yellow,gold,yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to yellow,gold,yellow); /* Standard syntax */
+    padding: 3px 10px;
+
+
+  }
+  .business_divisions p{
+    color: black;
+    padding: 15px;
+  }

@@ -1,0 +1,17 @@
+.images{
+  width: 950px;
+  height: 646px;
+  padding: 0px;
+  margin: 20px;
+}
+
+.images button{
+  display: block;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.images img {
+  margin: -4px;
+  padding:0px:
+}

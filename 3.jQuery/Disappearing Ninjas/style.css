@@ -1,0 +1,11 @@
+.images{
+  width: 1000px;
+  height: 700px;
+  padding: 20px;
+}
+
+.images button{
+  display: block;
+  margin-top: 25px;
+  padding: 10px;
+}

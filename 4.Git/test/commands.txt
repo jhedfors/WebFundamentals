@@ -1,0 +1,20 @@
+$ mkdir test
+$ cd test
+$ touch index.html styles.css commands.txt
+$ git init
+$ git add .
+$ git commit -m "initial commit"
+$ git remote add origin https://github.com/jhedfors/LearningToCommit.git
+$ git pull origin master
+$ git push origin master
+$ git add ind*
+$ git commit -m "update HTML"
+$ git push origin master
+$ git add style*
+$ git commit -m "update css"
+$ git push origin master
+$ git log
+$ git revert -n baf4
+$ git add style*
+$ git commit -m "reverted and updated style.css"
+$ git push origin master

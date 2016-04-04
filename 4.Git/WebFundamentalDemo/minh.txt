@@ -1,0 +1,1 @@
+this is my text file. git is awesome. and it should work.

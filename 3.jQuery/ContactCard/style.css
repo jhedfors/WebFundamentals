@@ -1,0 +1,60 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+  font-size: 18px;
+}
+
+form {
+  width: 280px;
+  margin: 40px;
+  border: 1px solid black;
+  padding: 10px;
+  display: inline-block;
+}
+
+form input {
+  margin: 10px 0px;
+  border: 1px solid black;
+}
+form textarea {
+  height: 100px;
+  width: 260px;
+  margin: 5px 0px;
+  border: 1px solid black;
+}
+div.results {
+  width: 350px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  padding: 10px;
+
+  /*background-color: gray;*/
+}
+
+div.front {
+  border: 1px solid black;
+  width: 200px;
+  height: 70px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+.front h2{
+  padding-bottom: 20px;
+}
+div.back {
+  border: 1px solid black;
+  width: 200px;
+  height: 70px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  display: none;
+}
+button {
+  padding: 5px;
+}

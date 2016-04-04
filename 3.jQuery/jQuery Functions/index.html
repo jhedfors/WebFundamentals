@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Functions</title>
+    <style>
+      .unorderedlist {
+        text-decoration: underline;
+        color: blue;
+      }
+      .unorderedlist ul {
+        display: inline-block;
+        width: 200px;
+      }
+      .assignment {
+        background-color: lightgrey;
+        margin: 20px 50px;
+        padding: 20px;
+        border: 2px black solid;
+        display: inline-block;
+        width: 200px;
+        position: relative;
+      }
+      .newClass {
+        color: red;
+        text-decoration: line-through;
+      }
+      .main {
+        height: 80%;
+        width: 200px;
+        background-color: lightgrey;
+        border: 2px solid black;
+        display: inline-block;
+        position: fixed;
+        top:30px;
+        right: 200px;
+        padding: 20px;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript">
+
+
+      $(document).ready(function(){
+
+        $('li.addClass').click(function(){
+          $('li.addClass').addClass("newClass");
+        });
+        $('li.after').click(function(){
+          $('.unorderedlist').after("clicked '.after'");
+        });
+        $('li.append').click(function(){
+          $('.unorderedlist').append("clicked '.append'");
+        });
+        $('li.attr').click(function(){
+          $('div.main').attr('style','background-color:pink');
+        });
+        $('li.before').click(function(){
+          $('.unorderedlist').before("clicked '.before'");
+        });
+        $('li.html').click(function(){
+          $('.main').html('<input type="button" name="name" value=".html code"><hr><input type="text" class="textbox" name="input" value="original">');
+        })
+        $('li.text').click(function(){
+          $('.main').text('<input type="button" name="name" value=".html code">');
+        });
+        $('li.val').click(function(){
+          $( '.textbox' ).val('new text');
+        });
+        $('li.toggle').click(function(){
+          $('.main').toggle();
+        });
+        $('li.hide').click(function(){
+          $('.main').hide();
+        });
+        $('li.show').click(function(){
+          $('.main').show();
+        });
+        $('li.slidedown').click(function(){
+          $('.main').hide();
+          $('.main').slideDown(1000);
+        });
+        $('li.slidetoggle').click(function(){
+          $('.main').slideToggle(1000);
+        });
+        $('li.slideup').click(function(){
+          $('.main').slideUp(1000);
+        });
+        $('li.fadeout').click(function(){
+          $('.main').fadeOut(1000);
+        });
+        $('li.fadein').click(function(){
+          $('.main').fadeIn(1000);
+        });
+        $('li.focus').click(function(){
+          $('.textbox').focus();
+        });
+        $('li.click').click(function(){
+          alert('You have been using the .click function for every one these events!');
+        });
+        $('li.data').click(function(){
+          $('body').data("variable", $('.textbox').val());
+          alert('The text: ['+ $('body').data('variable') + "] is from text box stored in a data variable");
+        });
+
+      });
+
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="assignment">
+        <h3>Primary 18 jQuery functions:</h3>
+        <p>
+          (Click each item to see it in action)
+        </p>
+        <p>
+          <ul class="unorderedlist">
+            <li class="addClass">.addClass</li>
+            <li class="after">.after</li>
+            <li class="append">.append</li>
+            <li class="attr">.attr</li>
+            <li class="before">.before</li>
+            <li class="html">.html</li>
+            <li class="text">.text</li>
+            <li class="val">.val</li>
+            <li class="toggle">.toggle</li>
+            <li class="hide">.hide</li>
+            <li class="show">.show</li>
+            <li class="slidedown">.slideDown</li>
+            <li class="slidetoggle">.slideToggle</li>
+            <li class="slideup">.slideUp</li>
+            <li class="fadeout">.fadeOut</li>
+            <li class="fadein">.fadeIn</li>
+            <li class="focus">.focus</li>
+            <li class="click">.click</li>
+            <li class="data">.data</li>
+          </ul>
+        </p>
+
+
+
+      </div>
+      <div class="main">
+        <p>
+          Some original content for the page.
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>

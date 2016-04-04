@@ -1,0 +1,93 @@
+body {
+	background-color: black;
+	margin: 0px;
+}
+
+#container {
+	/*background-color: black;*/
+/*	background-image: url("arena/beach.jpg");*/
+	background-repeat: no-repeat;
+	position: relative;
+	width: 1024px;
+	height: 768px;
+	background-size: cover;
+	background-position: center;
+	margin: 0px;
+}
+
+#select_arena {
+	/*display: none;*/
+	background-color: rgba(76,76,76,0.5);
+	position: relative;
+	/*display: block;*/
+	width: 220px;
+	height: 120px;
+	border-radius: 5px;
+	padding: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	top: 300px;
+}
+
+#select_arena h1 {
+	color: #ffa300;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+}
+
+#select_arena button {
+	border-radius: 5px;
+}
+
+#select_arena p {
+	text-align: center;
+}
+
+
+#select_players {
+	background-color: rgba(76,76,76,0.5);
+	position: relative;
+	display: none;
+	width: 220px;
+	height: 120px;
+	border-radius: 5px;
+	padding: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	top: 300px;
+}
+
+
+#select_players h1 {
+	color: #ffa300;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.player1_picture {
+	display: none;
+	position: relative;
+	bottom: -300px;
+	left: 100px;
+	height: 200px;
+	width: 145px;
+}
+
+
+.player2_picture {
+	display: none;
+	position: relative;
+	bottom: -300px;
+	right: -650px;
+	height: 200px;
+	width: 145px;
+}
+
+/*#fight {
+	display: none;
+	color: red;
+}*/

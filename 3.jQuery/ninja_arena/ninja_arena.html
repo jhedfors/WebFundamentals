@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ninja Arena Battle To The Death!</title>
+	<link rel="stylesheet" type="text/css" href="ninja_arena.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.js"></script> 
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+    		$("button").hover(
+    		function() {
+    			var bg = $(this).attr('background-path');
+    			$( "#container").css("background-image", "url(" + bg + ")");
+    					}
+    		);
+
+    		$("button").click(
+    		function() {
+    			var bg = $(this).attr('background-path');
+    			$( "#container").css("background-image", "url(" + bg + ")");
+    			$( "#select_arena").hide();
+    			$( "#select_players").show();
+    					}
+    		);
+
+    		$("#player1_select").click(
+    			function() {
+    				$(".player1_picture").show();
+    				var player1pic = $("#player1_select").val();
+    				$(".player1_picture").attr("src", player1pic);
+    			}
+    			);
+
+    		$("#player2_select").click(
+    			function() {
+    				$(".player2_picture").show();
+    				var player2pic = $("#player2_select").val();
+    				$(".player2_picture").attr("src", player2pic);
+    				$("#select_players").hide();
+    				$("#fight").show();
+    			}
+    			);
+
+    });
+	</script>
+</head>
+<body>
+<div id="container">
+	<div id="select_arena">
+		<h1>Select Arena</h1>
+		<p>
+			<button background-path="arena/beach.jpg" >beach</button>
+			<button background-path="arena/calvinandhobbes.jpg">planet</button>
+			<button background-path="arena/dojo.jpg">dojo</button>
+		</p>
+		<p>
+			<button background-path="arena/forest.jpg">forest</button>
+			<button background-path="arena/matrix.jpg">matrix</button>
+			<button background-path="arena/snow.jpg">snow</button>
+		</p>
+	</div>
+		<div id="select_players">
+		<h1>Select Players</h1>
+		<select name="player1" form="player_select" id="player1_select">
+			<option selected="selected">Select Player</option>
+			<option value="player/black.png">Black Ninja</option>
+			<option value="player/green.png">Green Ninja</option>
+			<option value="player/leo.jpg">Leonardo</option>
+			<option value="player/red.png">Red Ninja</option>
+			<option value="player/white.png">White Ninja</option>
+			<option value="player/yellow.png">Yellow Ninja</option>
+		</select>
+		<select name="player2" form="player_select" id="player2_select">
+			<option selected="selected">Select Player</option>
+			<option value="player/black.png">Black Ninja</option>
+			<option value="player/green.png">Green Ninja</option>
+			<option value="player/leo.jpg">Leonardo</option>
+			<option value="player/red.png">Red Ninja</option>
+			<option value="player/white.png">White Ninja</option>
+			<option value="player/yellow.png">Yellow Ninja</option>
+		</select>
+	</div>
+	<!-- <div id="fight">
+	<h1>FIGHT!</h1>
+	</div> -->
+	<img src="player/black.png" class="player1_picture">
+	<img src="player/black.png" class="player2_picture">
+</div>
+</body>
+</html>

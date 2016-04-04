@@ -1,0 +1,57 @@
+body{
+  background-color: black;
+}
+.main {
+  height: 600px;
+  width: 970px;
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+}
+.selectArena, .selectPlayer {
+  height: 175px;
+  width: 250px;
+  position: absolute;
+  left: 330px;
+  top: 200px;
+  background-color: rgba(76, 76, 76, 0.5);;
+  padding: 30px 40px 10px 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+
+.selectArena h1, .selectPlayer h1{
+  font-size: 36px;
+  font-weight: 900;
+  color: #ffa300;
+}
+
+.selectPlayer{
+  display: none;
+}
+
+.selectArena button{
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 8px;
+
+}
+
+.player1 img{
+  height: 200px;
+  width: auto;
+  position: absolute;
+  bottom: 50px;
+  left: 90px;
+}
+
+.player2 img{
+  height: 200px;
+  width: auto;
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+}

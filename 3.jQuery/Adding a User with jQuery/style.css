@@ -1,0 +1,71 @@
+* {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.main {
+  width: 500px;
+}
+body{
+  background-color: white;
+  padding: 20px;
+}
+
+form.addUser{
+  width: 300px;
+  text-align: right;
+  border-top: 2px solid lightgrey;
+  padding: 20px 0px;
+  font-size: 18px;
+}
+
+form.addUser input[type="submit"]{
+  margin-top: 20px;
+}
+
+form.addUser input[type="text"]{
+  border: 1px solid grey;
+}
+
+/*table tr {
+   border: 1px solid black;
+   padding: 5px;
+}*/
+
+th{
+  padding: 0px 10px;
+}
+
+
+
+
+
+table{
+   border: 1px solid black;
+   padding: 0px;
+   margin-bottom: 20px;
+   width: 450px;
+   height: auto;
+}
+
+thead {
+  border: 1px solid black;
+  width: 440px;
+  height: 20px;
+  padding: 0px 5px;
+  text-align: left;
+}
+
+td{
+  padding: 0px 10px;
+
+}
+tr {
+  border: 1px solid black;
+
+}
+
+th {
+  /*padding: 0px 10px;*/
+}
